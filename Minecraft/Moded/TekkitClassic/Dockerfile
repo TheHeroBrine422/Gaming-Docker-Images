@@ -1,5 +1,5 @@
 FROM docker.io/java:8
-MAINTAINER Caleb Jones <caleb@anthonyandtobie.com>
+MAINTAINER Caleb Jones <caleb@calebgj.io>
 RUN apt-get -y install wget unzip
 RUN mkdir /TekkitCServer
 WORKDIR /TekkitCServer
