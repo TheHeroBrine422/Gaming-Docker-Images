@@ -1,0 +1,2 @@
+Build: sudo docker build -t Mine10Server
+Run: sudo docker run -d Mine10Server -p 25565:25565 -v /home/caleb/Mine10ServerWorld:/data/world
