@@ -13,4 +13,4 @@ USER mine10
 ADD ops.json /data
 ADD whitelist.json /data
 ADD server.properties /data
-CMD echo eula=true > /data/eula.txt && java -jar /minecraft_server.1.9.jar
+CMD echo eula=true > /data/eula.txt && java -jar /server.jar
