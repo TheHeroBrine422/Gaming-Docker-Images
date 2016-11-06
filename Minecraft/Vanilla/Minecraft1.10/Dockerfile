@@ -8,7 +8,7 @@ EXPOSE 25565
 RUN useradd mine10
 RUN chown -R mine10:mine10 /Mine10
 USER mine10
-ADD ops.json /data
-ADD whitelist.json /data
-ADD server.properties /data
-CMD echo eula=true > /data/eula.txt && java -jar /Mine10/server.jar
+ADD ops.json /Mine10
+ADD whitelist.json /Mine10
+ADD server.properties /Mine10
+CMD echo eula=true > /Mine10/eula.txt && java -jar /Mine10/server.jar
